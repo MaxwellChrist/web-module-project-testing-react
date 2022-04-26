@@ -44,7 +44,7 @@ test('renders show season options matching your data when the button is clicked'
     })
 });
 
-test('renders show season options matching your data when the button is clicked', async () => { 
+test('displays testFunction when button is pressed', async () => { 
     mockFetchShow.mockResolvedValueOnce(show);
     const testFunction = jest.fn();
     render(<Display testFunction={testFunction} />);
