@@ -2,7 +2,7 @@ import React from "react";
 import Display from "./components/Display";
 
 export default function App() {
-  const displayFunc = (data)=> {
+  const testFunction = (data)=> {
     console.log(data);
   }
 
